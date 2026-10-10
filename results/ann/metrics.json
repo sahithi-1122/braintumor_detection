@@ -1,0 +1,29 @@
+{
+  "model_name": "ann",
+  "accuracy": 0.594375,
+  "macro_precision": 0.6775468073721957,
+  "macro_recall": 0.594375,
+  "macro_f1": 0.5422295459392267,
+  "per_class": {
+    "glioma": {
+      "precision": 0.4332909783989835,
+      "recall": 0.8525,
+      "f1": 0.5745577085088458
+    },
+    "meningioma": {
+      "precision": 0.7741935483870968,
+      "recall": 0.06,
+      "f1": 0.11136890951276102
+    },
+    "no_tumor": {
+      "precision": 0.8,
+      "recall": 0.75,
+      "f1": 0.7741935483870968
+    },
+    "pituitary": {
+      "precision": 0.7027027027027027,
+      "recall": 0.715,
+      "f1": 0.7087980173482032
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "model_name": "resnet",
+  "accuracy": 0.936875,
+  "macro_precision": 0.94172836086333,
+  "macro_recall": 0.936875,
+  "macro_f1": 0.9352630801584864,
+  "per_class": {
+    "glioma": {
+      "precision": 0.9936708860759493,
+      "recall": 0.785,
+      "f1": 0.8770949720670391
+    },
+    "meningioma": {
+      "precision": 0.8616071428571429,
+      "recall": 0.965,
+      "f1": 0.910377358490566
+    },
+    "no_tumor": {
+      "precision": 0.9478672985781991,
+      "recall": 1.0,
+      "f1": 0.9732360097323601
+    },
+    "pituitary": {
+      "precision": 0.9637681159420289,
+      "recall": 0.9975,
+      "f1": 0.9803439803439803
+    }
+  }
+}

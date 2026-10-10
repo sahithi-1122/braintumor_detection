@@ -1,0 +1,29 @@
+# Dataset is distributed separately by Kaggle; do not commit it.
+data/*
+!data/.gitkeep
+
+# Trained Keras files are large (the ResNet checkpoint is over 100 MB).
+saved_models/*
+!saved_models/ann/
+!saved_models/cnn/
+!saved_models/resnet/
+saved_models/ann/*
+saved_models/cnn/*
+saved_models/resnet/*
+!saved_models/ann/.gitkeep
+!saved_models/cnn/.gitkeep
+!saved_models/resnet/.gitkeep
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.pytest-tmp/
+
+# Local environment and editor files
+.venv/
+venv/
+.env
+.idea/
+.vscode/
