@@ -167,10 +167,6 @@ For full training (recommended for GPU access):
 
 ---
 
-## Academic Report
-
-The full IEEE-format academic report is at `reports/brain_tumor_report.md`.
-The report's result tables now contain the measured values from `results/comparison_table.csv` and `results/*/metrics.json`. If you rerun training, regenerate evaluation artifacts and update the report to match.
 
 ### Current experiment results
 
@@ -182,7 +178,6 @@ The checked-in evaluation artifacts are from the 1,600-image supplied Testing pa
 | Custom CNN | 70.75% | 68.08% |
 | ResNet50 transfer learning | 93.69% | 93.53% |
 
-See `reports/brain_tumor_report.md` and `results/` for per-class metrics, confusion matrices, and training curves. These are dataset-specific educational results, not clinical validation.
 
 ### GitHub notes
 
